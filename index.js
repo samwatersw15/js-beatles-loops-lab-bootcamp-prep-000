@@ -28,4 +28,12 @@ function johnLennonFacts(arrayoffacts) {
   return result
 }
 
+function iLoveTheBeatles(num) {
+  let result = []
+  do {
+    result.push('I love the Beatles!')
+  } while (++num < 15)
+  return result
+}
+
 
